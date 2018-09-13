@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import AppCenter
+import AppCenterCrashes
 
 class ViewController: UIViewController {
 
@@ -20,6 +22,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func buttonClick(_ sender: UIButton) {
+        MSCrashes.generateTestCrash()
+    }
+    
 }
 
