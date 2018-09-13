@@ -8,6 +8,7 @@
 
 import UIKit
 import AppCenter
+import AppCenterAnalytics
 import AppCenterCrashes
 
 class ViewController: UIViewController {
@@ -23,8 +24,12 @@ class ViewController: UIViewController {
     }
 
     @IBAction func buttonClick(_ sender: UIButton) {
+        // version 1.1 build 3
         MSCrashes.generateTestCrash()
     }
     
+    @IBAction func buttonEventClick(_ sender: UIButton) {
+        MSAnalytics.trackEvent("test event")
+    }
 }
 
