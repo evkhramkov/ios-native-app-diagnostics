@@ -23,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         MSAppCenter.setLogUrl("https://in-integration.dev.avalanch.es")
         MSAppCenter.setLogLevel(MSLogLevel.verbose)
         MSAppCenter.start("1a844619-0871-4445-9c08-acdbc730fa8b", withServices:[ MSAnalytics.self, MSCrashes.self ])
+        
+        print("test 26")
         return true
     }
 
