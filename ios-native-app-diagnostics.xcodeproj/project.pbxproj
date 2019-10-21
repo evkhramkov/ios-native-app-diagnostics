@@ -535,7 +535,7 @@
 			baseConfigurationReference = F581EC499AE616087252F478 /* Pods-ios-native-app-diagnostics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = R2L8TU8NEV;
 				INFOPLIST_FILE = "ios-native-app-diagnostics/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -544,6 +544,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ewgeniux.ios-native-app-diagnostics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS-native-app-diagnostics";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -554,7 +555,7 @@
 			baseConfigurationReference = 42AC146D45E1D58B1450D366 /* Pods-ios-native-app-diagnostics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = R2L8TU8NEV;
 				INFOPLIST_FILE = "ios-native-app-diagnostics/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -563,6 +564,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ewgeniux.ios-native-app-diagnostics";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS-native-app-diagnostics";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
