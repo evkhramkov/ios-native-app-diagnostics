@@ -20,9 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        MSAppCenter.setLogUrl("https://in-integration.dev.avalanch.es")
+       // MSAppCenter.setLogUrl("https://in-integration.dev.avalanch.es")
         MSAppCenter.setLogLevel(MSLogLevel.verbose)
-        MSAppCenter.start("1a844619-0871-4445-9c08-acdbc730fa8b", withServices:[ MSAnalytics.self, MSCrashes.self ])
+        //MSAppCenter.start("1a844619-0871-4445-9c08-acdbc730fa8b", withServices:[ MSAnalytics.self, MSCrashes.self ])
+        MSAppCenter.start("f908deb0-79e9-40f4-94ba-1d993b34fa60", withServices:[ MSAnalytics.self, MSCrashes.self ])
         
         print("test 27")
         return true
