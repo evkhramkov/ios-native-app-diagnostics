@@ -24,7 +24,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         MSAppCenter.setLogLevel(MSLogLevel.verbose)
         MSAppCenter.start("1a844619-0871-4445-9c08-acdbc730fa8b", withServices:[ MSAnalytics.self, MSCrashes.self ])
         
-        print("test 29")
+        print("test 30")
         return true
     }
 
